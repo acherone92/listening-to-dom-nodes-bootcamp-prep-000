@@ -16,7 +16,7 @@
     const input = document.querySelector('input')
     input.addEventListener('keydown', function(e) {
     if (e.which === 71) {
-      console.log('g was pressed');
+      console.log(e.which);
       return e.preventDefault();
       }
     })
