@@ -14,12 +14,11 @@
   <body>
     <script>
     const input = document.querySelector('input')
-    input.addEventListener('keydown', function(e) {
-    if (e.which === 71) {
-      console.log(e.which + e.detail);
-      return e.preventDefault();
-      }
+    input.addEventListener('keydown',
+    function(e) {
+      console.log(e.which)
     })
+   
       
     </script>
     <main id="main">My ID is "main"!</main>
